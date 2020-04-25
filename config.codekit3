@@ -20,22 +20,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/course/css/main.css": {
+	"/live-coding-result/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/course/css/main-min.css",
+		"oAP": "/live-coding-result/css/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/course/index.html": {
+	"/live-coding-result/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/course/index.html",
+		"oAP": "/live-coding-result/index.html",
 		"oF": 0
 		},
 	"/readme.html": {
