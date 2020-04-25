@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "32137",
 "files": {
+	"/assets/300420_Basics_HTML_CSS_EN.png": {
+		"ft": 32768,
+		"iS": 163887,
+		"oA": 0,
+		"oAP": "/assets/300420_Basics_HTML_CSS_EN.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/course/css/main.css": {
 		"aP": 1,
 		"bl": 0,
