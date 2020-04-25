@@ -27,16 +27,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/test.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/test-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
