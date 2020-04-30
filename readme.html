@@ -14,6 +14,38 @@
 
 <p>Here you find the source code from the Malt academy talk &#8220;Basics of HTML and CSS&#8221;</p>
 
+<p>** CHANGE in the HTML-Document after the talk! **</p>
+
+<p>I wanted to place the element <code>aside</code> next to <code>main</code>.</p>
+
+<p>So need it to be a sibling of <code>main</code> - so I took the <code>aside</code> element out of main and put it after <code>main</code>.</p>
+
+<p>Do this in your own project only, if it makes sense. Because HTML is all about sense and meaning.</p>
+
+<p>By the way: if the <code>aside</code> can stay in the <code>main</code> element, make the <code>main</code> a grid conatiner. Everything in body does not have to be placed in a grid, anyway all the other elements are standing on top of each other.</p>
+
+<p>This is the reason why I have to give all children of body the style <code>grid-colum: 1 / 3;</code></p>
+
+<p>This tells the browser to place an element from line one to line three of the grid. Line one is before the first column, line two is between column one and column two and line three is after column 2 (and before column three. if there is a thir column).</p>
+
+<p>So <code>1 / 3</code> means column 1 and 2.</p>
+
+<p>See also https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column</p>
+
+<p>While talking it did not work, because I wrote <code>0 / 2</code> - for a reason I don&#8217;t understand myself, I thought I have to start counting at 0&#8230;</p>
+
+<p>Of course on a real life web page, the main article would be wider than the sidebar, so try playing around with the fraction values in line 4 of the css file.</p>
+
+<p>Think of them as a ratio between the elements in each row. If you write <code>5fr 2fr</code> for example this means that the first row gets 5 parts of the whole and the second row will get 2 parts.</p>
+
+<p>If you want something behaving like on a bootstrap grid, you need the sum of the fractions to equal 12 like so: 8fr 4fr</p>
+
+<p>But you already can see in this little example, that you have much less constraints than in a bootstrap layout, not even mentioning, that css grid is smart, whre bootstrap is dull like a stone. Because with css grid you can make responsive layouts without media queries. If you are interested in this feature of css grid, search the Mozilla developer Network for autofill and autofit.</p>
+
+<p>By the way. you are free to combine css grid and flex: put a flex container into an grid item and enjoy the magic!</p>
+
+<p>Heve fun!</p>
+
 </body>
 </html>
 
